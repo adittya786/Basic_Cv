@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <h3>Contact Details:</h3>
+</head>
+<body>
+     <form action="mailto:adittya_201900262@smit.smu.edu.in" method="post">
+       <label for="fName">First Name:</label>
+       <input type="text" name="fName" id="firstname"> <br>
+       <label for="Lname">Last Name:</label>
+       <input type="text" name="Lname" id="lastname"><br>
+       <input type="reset" > <br><br>
+       <label for="number">Registration number</label>
+       <input type="number" name="number" id="number"><br><br>
+       <label for="course">Course</label>
+       <input type="text" name="text" id="text"><br><br>
+       <label for="sec">Section</label><br>
+       <input type="radio" name="sec" id="sec">
+       <label for="sec">A</label><br>
+       <input type="radio" name="sec" id="sec">
+       <label for="sec">B</label><br>
+       <input type="radio" name="sec" id="sec">
+       <label for="sec">C</label><br><br>
+       <label for="department">Department</label>
+       <select name="dept" id="dept">
+            <option value="select">select</option>
+            <option value="select">CSE</option>
+            <option value="select">ECE</option>
+            <option value="select">IT</option>
+            <option value="select">ME</option>
+            <option value="select">CE</option>
+       </select><br><br>
+       <label for="Gender">Gender</label> <br>
+       <input type="radio" name="Gender" id="Gender">
+       <label for="Gender">Male</label><br>
+       <input type="radio"name="Gender" id="Gender">
+       <label for="Gender">Female</label><br>
+       <label for="nationality">Nationality</label><br>
+       <input type="radio" name="nationality" id="nationality">
+       <label for="nationality">Indian</label><br>
+       <input type="radio" name="nationality" id="nationality" value="Indian">
+       <label for="nationality">other countries</label><br>
+       <label for="Skills">Skills</label><br>
+       <input type="checkbox" name="Skills" id="Skills">
+       <label for="Skills">C</label><br>
+       <input type="checkbox" name="Skills" id="Skills">
+       <label for="Skills">C++</label><br>
+       <input type="checkbox" name="Skills" id="Skills">
+       <label for="Skills">Java</label><br>
+       <input type="checkbox" name="Skills" id="Skills">
+       <label for="Skills">Python</label><br>
+       <label for="car">Choose a technology</label>
+       <select name="technology" id="technology">
+          <option value="Select">Select</option>
+          <option value="Machine learning">Machine learning</option>
+          <option value="Web development">Web development</option>
+          <option value="UI/UX design">UI/UX design</option>
+          <option value="IOT">Internet Of Things</option>
+       </select> <br> <br>
+       <label for="phone number">Phone number</label>
+       <input type="number" name="phone number" id="phone number"><br><br>
+       <label for="email">Email Id</label>
+       <input type="email" name="email" id="email"> <br><br>
+       <label for="text">Any Suggestions:</label> <br>
+       <textarea name="message" id="message" cols="40" rows="10">
+       </textarea> <br> <br>
+       <label for="file">10th marksheet</label><br> <br>
+       <input type="file" name="File" id="File"> <br> <br>
+       <label for="file">12th marksheet</label><br> <br>
+       <input type="file" name="File" id="File"> <br> <br>
+       <label for="DOB">Date-of-birth</label>
+       <input type="date" name="Date" id="date"><br><br>
+       <label for="text">Password</label>
+       <input type="password"><br> <br>
+       <input type="submit" onclick="alert('Form Successfully submitted')" value="Submit">
+       </form>
+</body>
+</html>
